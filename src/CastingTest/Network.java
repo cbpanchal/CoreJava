@@ -17,7 +17,7 @@ public class Network {
     void go(Network n1) {
         Network n2 = new Network(2, n1);
         Network n3 = new Network(3, n1);
-        System.out.println(n3.p.p.id);
+        System.out.println(n3.p.toString());
 
     }
 
